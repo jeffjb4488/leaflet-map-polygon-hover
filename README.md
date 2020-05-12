@@ -2,7 +2,7 @@
 Leaflet thematic polygon (choropleth) map, with hover info window, using GeoJSON data
 
 ## Demo
-- https://datavizforall.github.io/leaflet-map-polygon-hover/index.html
+- https://handsondataviz.github.io/leaflet-map-polygon-hover/
 
 ## Benefits
 - This GeoJSON version is simpler for novices to understand, since they can create and join GeoJSON data file in MapShaper.org
@@ -14,19 +14,19 @@ Leaflet thematic polygon (choropleth) map, with hover info window, using GeoJSON
 ## Credits
 - Leaflet choropleth tutorial (with US state population density example): http://leafletjs.com/examples/choropleth.html
 - Thanks for reset highlight solution http://stackoverflow.com/questions/30524035/geojson-getjson-and-remove-higlight-mouse-out-on-leaflet
-- Thanks for code functions @alvinschang Connecticut Mirror http://ctmirror.org
-- Thanks for code improvements @ilyankou
+- Thanks for code functions [@alvinschang](https://github.com/alvinschang) Connecticut Mirror http://ctmirror.org
+- Thanks for code improvements [@ilyankou](https://github.com/ilyankou)
 
 ## Create your own
 
-See tutorial in the Leaflet Template section of *Data Visualization for All* book http://DataVizForAll.org
+See tutorial in the Leaflet Template section of *Hands-On Data Visualization* book https://HandsOnDataViz.org/
 
-####General overview of steps below
+#### General overview of steps below
 - Join a GeoJSON polygon map with spreadsheet data
 - Modify color ranges and info box text & variables as needed
 - Upload all files to a forked or new GitHub repository, create GitHub pages branch for live web host
 
-####Detailed steps:
+#### Detailed steps:
 - Start with GeoJSON polygon map with no numerical data, such as: ct-towns-borders.geojson
 - Import polygon map into http://MapShaper.org. Simplify to reduce size as needed.
 - Export as CSV to create spreadsheet of polygon names. In this example, column header is "town"
