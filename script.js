@@ -20,7 +20,7 @@ attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreet
 L.control.zoom({position: "topright"}).addTo(map);
 
 // Edit to upload GeoJSON data file from your local directory
-$.getJSON("map.geojson", function (data) {
+$.getJSON("polygon_test_wgs.geojson", function (data) {
   geoJsonLayer = L.geoJson(data, {
     style: style,
     onEachFeature: onEachFeature
